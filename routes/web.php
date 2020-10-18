@@ -40,6 +40,8 @@ Route::name('siska.')->prefix('siska')->group(function () {
 
     Route::get('/about', [AboutsiskaController::class, 'index'])->name('about');
 
+    Route::get('/ekajian', [KajianController::class, 'kajian'])->name('ekajian');
+
 
 });
 

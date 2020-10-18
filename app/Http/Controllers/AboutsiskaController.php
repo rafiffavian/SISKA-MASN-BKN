@@ -10,4 +10,5 @@ class AboutsiskaController extends Controller
     {
         return view('about.tentang-siska')->with('success', 'true');
     }
+
 }

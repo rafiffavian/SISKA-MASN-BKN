@@ -10,4 +10,9 @@ class KajianController extends Controller
     {
         return view('kajian.kajian');
     }
+
+    public function kajian()
+    {
+        return view('kajian.e-kajian');
+    }
 }

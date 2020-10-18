@@ -52,9 +52,19 @@
     @include('layouts.includes.header')
 
 {{-- ENDHEADER --}}
-
+<section class="section first-section">
+    <div class="container-fluid">
+        <div class="masonry-blog clearfix">
+          
+        </div><!-- end masonry -->
+    </div>
+</section>
+{{-- <br> --}}
+<section class="section" style="background-color: #f2ccff;">
 
     @yield('content')
+
+</section>    
 
 
 {{-- FOOTER --}}

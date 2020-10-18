@@ -1,20 +1,13 @@
 @extends('layouts.master')
 
 @section('content')
-<section class="section first-section">
-    <div class="container-fluid">
-        <div class="masonry-blog clearfix">
-          
-        </div><!-- end masonry -->
-    </div>
-</section>
-<br>
-<section class="section">
+<br><br>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                 <div class="section-title">
-                    <h3 class="color-aqua">Motivation</h3>
+                    <img width="300px" height="300px;" src="{{ asset('images/event.jpeg') }}" alt="">
+                    
                 </div><!-- end title -->
 
                 <div class="row">
@@ -403,6 +396,6 @@
             </div><!-- end col -->
         </div><!-- end row -->
     </div><!-- end container -->
-</section>
+
 
 @endsection

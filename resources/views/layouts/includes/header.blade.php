@@ -16,7 +16,7 @@
             </div>
         </div><!-- end top-search -->
 
-        <div class="topbar-section">
+        <div class="topbar-section" style="background-color: #f5f5ef">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-6 hidden-xs-down">
@@ -27,7 +27,7 @@
 
                     <div class="col-lg-4 hidden-md-down">
                         <div class="topmenu text-center">
-                        <h1>SISKA MASN</h1>
+                        <img width="250px" src="{{asset('images/logo siska.png')}}" alt="">
                         </div><!-- end topmenu -->
                     </div><!-- end col -->
 
@@ -44,7 +44,7 @@
 
         {{-- <header class="header"> --}}
             {{-- <div class="container"> --}}
-                <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+                <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #668cff;">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
@@ -56,8 +56,11 @@
                         <li class="nav-item {{ Route::currentRouteNamed('siska.journal') ? 'active' : null }}">
                           <a class="nav-link" href="{{ route('siska.journal') }}">E-Journal</a>
                         </li>
-                        <li class="nav-item {{ Route::currentRouteNamed('siska.kajian') ? 'active' : null }}">
-                          <a class="nav-link" href="{{ route('siska.kajian') }}">E-Kajian</a>
+                        {{-- <li class="nav-item {{ Route::currentRouteNamed('siska.kajian') ? 'active' : null }}">
+                          <a class="nav-link" href="{{ route('siska.kajian') }}">Kajian</a>
+                        </li> --}}
+                        <li class="nav-item {{ Route::currentRouteNamed('siska.ekajian') ? 'active' : null }}">
+                          <a class="nav-link" href="{{ route('siska.ekajian') }}">E-Kajian</a>
                         </li>
                         <li class="nav-item {{ Route::currentRouteNamed('siska.puslitbang') ? 'active' : null }}">
                           <a class="nav-link" href="{{ route('siska.puslitbang') }}">Puslitbang</a>
