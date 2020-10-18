@@ -86,10 +86,11 @@
               <br>
           </div>  
           <div class="col-md-6 card">
+            <h5 class="card-header">Foto</h5>              
               <br><br>
                 <div class="media">
-                    <img style="width: 300px" height="250px" src="{{asset('images/gambar1.jpg')}}" alt="">
-                    <div class="media-body" style="margin-left: 50px;">
+                    <img style="width: 400px" height="250px" src="{{asset('images/gambar1.jpg')}}" alt="">
+                    <div class="media-body" style="margin-left: 80px;">
                         <h5 class="mt-0">Media heading</h5>
                         <small><a href="blog-category-01.html" title="">Videos</a></small>
                         <small><a href="blog-category-01.html" title="">21 July, 2017</a></small>
@@ -112,9 +113,10 @@
                     </div>
                 </div>
                 <hr>
+                <h5 class="card-header">Video</h5><br><br>
                 <div class="media">
-                    <iframe width="300" height="250" src="https://www.youtube.com/embed/im_Hcb5sBVo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="media-body" style="margin-left: 50px;">
+                    <iframe width="400" height="250" src="https://www.youtube.com/embed/im_Hcb5sBVo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="media-body" style="margin-left: 80px;">
                         <h5 class="mt-0">Media heading</h5>
                         <small><a href="blog-category-01.html" title="">Videos</a></small>
                         <small><a href="blog-category-01.html" title="">21 July, 2017</a></small>

@@ -8,7 +8,7 @@
                         <div class="widget">
                             <div class="footer-text text-center">
                                 <a href="index.html"><img src="images/flogo.png" alt="" class="img-fluid"></a>
-                                <p>Beranda&nbsp;.&nbsp;Kantor Regional&nbsp;.&nbsp;Berita&nbsp;.&nbsp;Regulasi&nbsp;.&nbsp;Galeri&nbsp;.&nbsp;Pengumuman&nbsp;.&nbsp;PPID&nbsp;.&nbsp;Blog&nbsp;kepegawaian&nbsp;.&nbsp;Hubungi&nbsp;Kami&nbsp;.&nbsp;ACCSM</p>
+                                
                                 <div class="social">
                                     <img style="width: 200px; height: 50px;" src="{{asset('assets/images/logo.png')}}" alt="">
                                 </div>
@@ -16,9 +16,9 @@
                                     <div class="col-md-12 text-center">
                                         <div class="copyright">Hak Cipta &copy; 2014 Badan Kepegawaian Negara. Semua Hak Dilindungi.</div>
                                         <p>Jl. Mayjen Sutoyo No. 12 Telp 021-8093008</p>
-                                        <p>Jakarta Timur 13640</p>
+                                        {{-- <p>Jakarta Timur 13640</p>
                                         <p>Dikelola oleh Tim Humas BKN -</p>
-                                        <p>Periode 2016 - 2020</p>
+                                        <p>Periode 2016 - 2020</p> --}}
                                     </div>
                                 </div>
                             

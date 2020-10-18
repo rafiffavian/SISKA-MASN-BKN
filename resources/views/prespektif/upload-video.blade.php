@@ -16,13 +16,13 @@
             {{ csrf_field() }}
             <div class="form-group">
               <label for="foto">Video</label>
-              <input type="file" id="foto" name="name" class="form-control">
+              <input required type="file" id="foto" name="name" class="form-control">
               <small id="emailHelp" class="form-text text-muted">Silahkan pilih video yang ingin anda upload.</small>
             </div>
             
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
-    </div><!-- end container -->
+    </div><!-- end container --> <br><br>
 </section>
 
 @endsection

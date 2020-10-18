@@ -62,9 +62,9 @@
                         <li class="nav-item {{ Route::currentRouteNamed('siska.ekajian') ? 'active' : null }}">
                           <a class="nav-link" href="{{ route('siska.ekajian') }}">E-Kajian</a>
                         </li>
-                        <li class="nav-item {{ Route::currentRouteNamed('siska.puslitbang') ? 'active' : null }}">
+                        {{-- <li class="nav-item {{ Route::currentRouteNamed('siska.puslitbang') ? 'active' : null }}">
                           <a class="nav-link" href="{{ route('siska.puslitbang') }}">Puslitbang</a>
-                        </li>
+                        </li> --}}
                         <li class="nav-item {{ Route::currentRouteNamed('siska.prespektif') ? 'active' : null }}">
                             <a class="nav-link" href="{{ route('siska.prespektif') }}">Prespektif ASN</a>
                         </li>

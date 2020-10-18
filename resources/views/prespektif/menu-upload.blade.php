@@ -15,7 +15,7 @@
                         <li class="list-group-item"><a href="{{ route('siska.create.motivation') }}">Upload Motivation Quote</a></li>
                     </ul>
         
-    </div><!-- end container -->
+    </div><!-- end container --> <br><br>
 </section>
 
 @endsection

@@ -5,10 +5,23 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                <div class="section-title">
-                    <img width="300px" height="300px;" src="{{ asset('images/event.jpeg') }}" alt="">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img width="300px" height="300px;" src="{{ asset('images/event.jpeg') }}" alt="">
+                    </div>
+                    <div class="col-md-6" style="margin-left: 80px;">
+                        @if ($dataMotivation)
+                                                  
+                            <h4>{{ $dataMotivation->title }}</h4>
+                            <p>{{ $dataMotivation->content }}.</p>
+                            
+                         @endif    
+                    </div>
+                </div>
+                {{-- <div class="section-title">
                     
-                </div><!-- end title -->
+                    
+                </div><!-- end title --> --}}
 
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -21,14 +34,14 @@
                                     </div><!-- end hover -->
                                 </a>
                             </div><!-- end media -->
-                    @if ($dataMotivation)
+                    {{-- @if ($dataMotivation)
                             
                         <div class="blog-meta big-meta">
                             <h4>{{ $dataMotivation->title }}</h4>
                             <p>{{ $dataMotivation->content }}.</p>
                             
                         </div><!-- end meta -->
-                    @endif    
+                    @endif     --}}
                         </div><!-- end blog-box -->
 
                         <hr class="invis">
@@ -56,7 +69,7 @@
                         @endif            
                         @if ($dataInfograph)     
                             <div class="media">
-                                <img width="800px" height="350px" src="{{ asset('images/infograph/'. $dataInfograph->photo) }}" class="mr-3" alt="...">
+                                <img width="400px" height="350px" src="{{ asset('images/infograph/'. $dataInfograph->photo) }}" class="mr-3" alt="...">
                             </div><br>
                         @endif            
                         </div><!-- end blog-box -->
