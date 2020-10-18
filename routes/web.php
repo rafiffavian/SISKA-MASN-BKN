@@ -8,6 +8,10 @@ use App\Http\Controllers\NewsController;
 use App\Http\Controllers\MotivationController;
 use App\Http\Controllers\InfografisController;
 use App\Http\Controllers\PrespektifController;
+use App\Http\Controllers\JournalController;
+use App\Http\Controllers\KajianController;
+use App\Http\Controllers\PuslitbangController;
+use App\Http\Controllers\AboutsiskaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,6 +31,15 @@ Route::get('/', function () {
 Route::name('siska.')->prefix('siska')->group(function () {
 
     Route::get('/prespektif', [PrespektifController::class, 'index'])->name('prespektif');
+
+    Route::get('/journal', [JournalController::class, 'index'])->name('journal');
+
+    Route::get('/kajian', [KajianController::class, 'index'])->name('kajian');
+
+    Route::get('/puslitbang', [PuslitbangController::class, 'index'])->name('puslitbang');
+
+    Route::get('/about', [AboutsiskaController::class, 'index'])->name('about');
+
 
 });
 

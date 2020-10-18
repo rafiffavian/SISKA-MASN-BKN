@@ -50,19 +50,22 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                       <ul class="navbar-nav">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">Tentang SISKA <span class="sr-only">(current)</span></a>
+                        <li class="nav-item {{ Route::currentRouteNamed('siska.about') ? 'active' : null }}">
+                          <a class="nav-link" href="{{ route('siska.about') }}">Tentang SISKA @if(Session::has('about'))<span class="sr-only">(current)</span>@endif</a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">E-Journal</a>
+                        <li class="nav-item {{ Route::currentRouteNamed('siska.journal') ? 'active' : null }}">
+                          <a class="nav-link" href="{{ route('siska.journal') }}">E-Journal</a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">E-Kajian</a>
+                        <li class="nav-item {{ Route::currentRouteNamed('siska.kajian') ? 'active' : null }}">
+                          <a class="nav-link" href="{{ route('siska.kajian') }}">E-Kajian</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item {{ Route::currentRouteNamed('siska.puslitbang') ? 'active' : null }}">
+                          <a class="nav-link" href="{{ route('siska.puslitbang') }}">Puslitbang</a>
+                        </li>
+                        <li class="nav-item {{ Route::currentRouteNamed('siska.prespektif') ? 'active' : null }}">
                             <a class="nav-link" href="{{ route('siska.prespektif') }}">Prespektif ASN</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item {{ Route::currentRouteNamed('siska.menu') ? 'active' : null }}">
                            <a class="nav-link" href="{{ route('siska.menu') }}"><i class="fas fa-plus"></i></a>
                         </li>
                         @if(Auth::user())
